@@ -1,4 +1,5 @@
 public class Student extends Person {
+    // Student class: stores student details and extends the abstract Person class
     private static int totalStudents = 0;
     private int id;
     private String course;
