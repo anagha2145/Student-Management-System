@@ -2,6 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
+    // Main class: shows the menu and handles user input with exception handling
     static Scanner sc = new Scanner(System.in);
     static int readInt(String message) {
         while (true) {
