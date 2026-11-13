@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 public class StudentManager implements RecordOperations {
+    // StudentManager: manages all student records using a HashMap and saves them to a file
     private HashMap<Integer, Student> students = new HashMap<>();   // ID -> Student
     private String fileName;
     public StudentManager(String fileName) {
